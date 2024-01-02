@@ -1,0 +1,40 @@
+[project]
+name = "serviceslib"
+version = "v0.16.0"
+authors = [
+  { name="Robert Jones", email="djrlj64@gmail.com" },
+  { name="Ravi Teja Reddy Karma", email="raviteja.karna@smartdata.net" },
+]
+description = "A package for reuse in AWS CDK apps and AWS Lambda functions"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/electrada/aws-services-library"
+Issues = "https://github.com/electrada/aws-services-library"
+
+[tool.poetry]
+name = "serviceslib"
+version = "0.1.0"
+description = ""
+authors = ["karna4591 <raviteja.karna@smartdata.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+boto3 = "^1.28.84"
+opsgenie-sdk = "^2.1.5"
+snowflake-connector-python = "^3.5.0"
+pytest = "^6.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
